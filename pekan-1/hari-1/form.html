@@ -1,0 +1,55 @@
+<html>
+  <body>
+    <h2>Buat Account Baru!</h2>
+    <h3>Sign Up Form</h3>
+    <form action="./welcome.html">
+      <label for="firstName">First name: </label>
+      <br />
+      <input type="text" name="firstName" id="firstName" />
+      <br />
+      <label for="lastName">Last name: </label>
+      <br />
+      <input type="text" name="lastName" id="lastName" />
+      <br />
+      <label for="gender">Gender: </label>
+      <br />
+
+      <input type="radio" name="gender" id="male" value="male" />
+      <label for="male">Male</label><br />
+      <input type="radio" name="gender" id="female" value="female" />
+      <label for="female">Female</label><br />
+      <input type="radio" name="gender" id="other" value="other" />
+      <label for="other">Other</label><br />
+      <br />
+      <label for="nationality">Nationality:</label>
+      <br />
+      <select name="nationality" id="nationality">
+        <option value="indonesian">Indonesian</option>
+        <option value="singaporean">Singaporean</option>
+        <option value="malaysian">Malaysian</option>
+        <option value="australian">Australian</option>
+      </select>
+      <label>Language Spoken: </label>
+      <br />
+      <input
+        type="checkbox"
+        id="indonesia"
+        name="indonesia"
+        value="Bahasa Indonesia"
+      />
+      <label>Bahasa Indonesia</label>
+      <br />
+      <input type="checkbox" id="english" name="english" value="English" />
+      <label>English</label>
+      <br />
+      <input type="checkbox" id="other" name="other" value="Other" />
+      <label>Other</label>
+      <br />
+      <label for="bio">Bio: </label>
+      <br />
+      <textarea rows="10" cols="30"></textarea>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
+  </body>
+</html>
