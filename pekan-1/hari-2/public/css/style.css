@@ -1,0 +1,46 @@
+body {
+  background-image: url("../img/pattern.png");
+  margin: 0;
+  padding: 0;
+}
+header {
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li {
+  margin: 0 10px;
+  text-decoration: none;
+}
+a {
+  text-decoration: none;
+}
+
+section {
+  background-color: white;
+  margin: 10px 180px;
+  padding: 10px;
+}
+section h1 {
+  text-align: center;
+}
+
+article p {
+  padding: 20px 0;
+  border-bottom: 1px solid;
+}
+article {
+  margin-top: 60px;
+}
+
+footer {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 50px;
+  line-height: 50px;
+}
