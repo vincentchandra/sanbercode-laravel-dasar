@@ -5,6 +5,10 @@ main {
   margin: 50px 0;
   padding: 0 20px;
 }
+#nav-container {
+  display: flex;
+  justify-content: space-evenly;
+}
 .carousel-inner {
   height: 400px;
 }
@@ -14,4 +18,17 @@ main {
 }
 .card {
   padding: 20px;
+}
+.row {
+  margin: 50px 0;
+}
+
+#nav {
+  background-color: rgb(38, 211, 67);
+  padding: 20px 0;
+  width: 100%;
+}
+ul {
+  display: flex;
+  justify-content: space-evenly;
 }
