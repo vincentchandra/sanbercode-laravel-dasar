@@ -1,0 +1,14 @@
+* {
+  box-sizing: border-box;
+}
+main {
+  margin: 50px 0;
+  padding: 0 20px;
+}
+.carousel-inner {
+  height: 400px;
+}
+.card {
+  padding: 20px;
+  margin: 50px 0;
+}
