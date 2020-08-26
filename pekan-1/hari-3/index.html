@@ -10,6 +10,14 @@
 
     <!-- Bootstrap CSS -->
     <link
+      href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link
       rel="stylesheet"
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
       integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
@@ -41,6 +49,8 @@
           </div>
         </div>
       </nav>
+    </header>
+    <div class="sticky shadow-sm">
       <nav class="navbar navbar-light bg-white">
         <img src="./img/logo.png" />
         <form class="form-inline">
@@ -51,44 +61,44 @@
             aria-label="Search"
           />
           <button class="btn btn-outline-success my-2 my-sm-0" type="submit">
-            Search
+            <i class="fas fa-search"></i>
           </button>
         </form>
       </nav>
-      <ul class="nav justify-content-around" id="nav">
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">HOME</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">SHOP</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">BLOG</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link text-white" href="#">ABOUT US</a>
-        </li>
-      </ul>
-    </header>
+    </div>
+    <ul class="nav justify-content-around" style="font-size: 20px" id="nav">
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">HOME</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">SHOP</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">BLOG</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#">ABOUT US</a>
+      </li>
+    </ul>
     <main class="row">
       <div class="left col-lg-2">
-        <nav class="nav flex-column border">
-          <a class="nav-link" href="#">Section 1</a>
-          <a class="nav-link" href="#">Section 2</a>
-          <a class="nav-link" href="#">Section 3</a>
-          <a class="nav-link" href="#">Section 4</a>
-          <a class="nav-link" href="#">Section 5</a>
-          <a class="nav-link" href="#">Section 6</a>
-          <a class="nav-link" href="#">Section 7</a>
-          <a class="nav-link" href="#">Section 8</a>
-          <a class="nav-link" href="#">Section 9</a>
-          <a class="nav-link" href="#">Section 10</a>
-          <a class="nav-link" href="#">Section 11</a>
-          <a class="nav-link" href="#">Section 12</a>
-          <a class="nav-link" href="#">Section 13</a>
-          <a class="nav-link" href="#">Section 14</a>
-          <a class="nav-link" href="#">Section 15</a>
-        </nav>
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action active">
+            Cras justo odio
+          </a>
+          <a href="#" class="list-group-item list-group-item-action"
+            >Dapibus ac facilisis in</a
+          >
+          <a href="#" class="list-group-item list-group-item-action"
+            >Morbi leo risus</a
+          >
+          <a href="#" class="list-group-item list-group-item-action"
+            >Porta ac consectetur ac</a
+          >
+          <a href="#" class="list-group-item list-group-item-action"
+            >Porta ac consectetur ac</a
+          >
+        </div>
       </div>
       <div class="center col-lg-8">
         <div
@@ -183,22 +193,41 @@
         </div>
       </div>
       <div class="right col-lg-2">
-        <div class="container border pl-0" style="height: 400px">
-          <a class="nav-link" href="#">Feature 1</a>
-          <a class="nav-link" href="#">Feature 2</a>
-          <a class="nav-link" href="#">Feature 3</a>
-          <a class="nav-link" href="#">Feature 4</a>
-          <a class="nav-link" href="#">Feature 5</a>
-          <a class="nav-link" href="#">Feature 6</a>
+        <div class="list-group">
+          <a href="#" class="list-group-item list-group-item-action active">
+            Cras justo odio
+          </a>
+          <a href="#" class="list-group-item list-group-item-action"
+            >Dapibus ac facilisis in</a
+          >
+          <a href="#" class="list-group-item list-group-item-action"
+            >Morbi leo risus</a
+          >
+          <a href="#" class="list-group-item list-group-item-action"
+            >Porta ac consectetur ac</a
+          >
+          <a href="#" class="list-group-item list-group-item-action"
+            >Porta ac consectetur ac</a
+          >
+          <a href="#" class="list-group-item list-group-item-action"
+            >Porta ac consectetur ac</a
+          >
+          <a href="#" class="list-group-item list-group-item-action"
+            >Porta ac consectetur ac</a
+          >
         </div>
-        <div class="container border" style="margin: 50px 0">
-          <a class="nav-link" href="#">External Link</a>
+        <div class="container border text-center" style="margin: 50px 0">
+          <a class="nav-link text-success" href="#">External Link</a>
         </div>
       </div>
     </main>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://kit.fontawesome.com/eb381c09c1.js"
+      crossorigin="anonymous"
+    ></script>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
       integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
