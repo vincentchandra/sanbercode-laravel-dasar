@@ -1,0 +1,28 @@
+<html>
+  <head> </head>
+  <body>
+    <style></style>
+    <div id="satu">
+      <div id="tengah">
+        <div id="dua">
+          <p>tes</p>
+        </div>
+        <ul>
+          <li>tes</li>
+          <li>lol</li>
+          <li>kok</li>
+        </ul>
+      </div>
+    </div>
+    <div class="s1">
+      <div id="tiga">tes</div>
+    </div>
+    <script>
+      var index = 1;
+      //   index.toString();
+      document.querySelectorAll(`.s1 #tiga`)[0].innerHTML = "halo";
+      console.log(document.getElementById("tiga").innerHTML);
+      document.getElementById("tiga").id += "halo";
+    </script>
+  </body>
+</html>
