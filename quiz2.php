@@ -80,7 +80,7 @@
                 }
             }
             else{ // jika negara belum pernah diinput, buat array associative baru didalam variable $arr sesuai dengan jenis medali yang didapat
-                $history[]=$data[$i][0];
+                $history[]=$data[$i][0]; // menambahkan negara tersebut ke $history
                 if($data[$i][1]=="emas"){
                     $arr[] = [
                         "negara"=>$data[$i][0],
